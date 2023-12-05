@@ -1,0 +1,108 @@
+.cabeza {
+    transform: translateX(7em) translateY(-51em);
+    margin: 0;
+}
+
+.orejaIzquierdo {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 60px;
+}
+
+.orejaDerecho {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 60px;
+    transform: translateX(8em) translateY(-2.9em);
+}
+
+.bufanda {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 60px 10px;
+    transform: translateX(2.1em) translateY(4.3em);
+}
+
+.rostro {
+    width: 170px;
+    height: 170px;
+    background-color: azure;
+    border-radius: 50%;
+    transform: translateX(0em) translateY(-7em);
+}
+
+.faroI {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 60px;
+    transform: translateX(2em) translateY(4em) rotate(0.95turn) skew(25deg);
+}
+
+.ojoI {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 60px;
+    transform: translateX(0.9em) translateY(1.3em) rotate(0.02turn) skew(50deg);
+}
+
+.pupilaI {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 60px;
+    transform: translateX(0.2em) translateY(0.32em) rotate(0.34turn) skew(29deg);
+}
+
+.faroD {
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 60px;
+    transform: translateX(6.2em) translateY(1.2em) rotate(0.33turn) skew(32deg);
+}
+
+.ojoD {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 60px;
+    transform: translateX(1.4em) translateY(1.3em) rotate(0.1turn) skew(43deg);
+}
+
+.pupilaD {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 60px;
+    transform: translateX(0.01em) translateY(0) rotate(0.77turn) skew(30deg);
+}
+
+.nariz {
+    width: 23px;
+    height: 14px;
+    background-color: grey;
+    border-radius: 60px;
+    transform: translateX(5.2em) translateY(1.2em);
+}
+
+.boca {
+    width: 62px;
+    height: 6px;
+    background-color: green;
+    border-radius: 60px;
+    transform: translateX(3.2em) translateY(2.2em);
+}
+
+
+.ramilla {
+    width: 62px;
+    height: 3px;
+    background-color: yellow;
+    border-radius: 60px;
+    transform: translateX(-0.09em) translateY(-7.9em) rotate(0.42turn);
+}

@@ -1,0 +1,205 @@
+body {
+    background-color: chocolate;
+}
+
+div:not(class) {
+    position: relative;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-top: 170px;
+      width: 100%;
+    }
+    to {
+      margin-bottom: 160px;
+      width: 20%;
+    }
+}
+
+.doska {
+    height: 900px;
+    margin: 200px;
+}
+
+.disk {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 416px;
+    left: 334px;
+}
+
+.rotate {
+    animation: spin 12s linear infinite;
+}
+
+.player {
+    height: 650px;
+    position: absolute;
+    top: 297px;
+    left: 662px;
+}
+
+.arm {
+    position: absolute;
+    top: 900px;
+    left: 295px;
+    animation: slidein 1s linear infinite;
+
+}
+
+.finger1 {
+  width: 30px;
+  height: 140px;
+  background-color: darkkhaki;
+  border-radius: 20px;
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  transform: rotate(-7deg);
+}
+
+.finger2 {
+    width: 30px;
+    height: 180px;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+    transform: rotate(-4deg);
+}
+
+.finger3 {
+    width: 30px;
+    height: 200px;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    position: absolute;
+    left: 130px;
+    bottom: 0;
+}
+
+.finger4 {
+    width: 30px;
+    height: 170px;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    position: absolute;
+    left: 170px;
+    bottom: 0;
+    transform: rotate(4deg);
+}
+
+.finger5 {
+    width: 30px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    bottom: -115px;
+    transform: rotate(32deg);
+}
+
+.palm {
+    width: 139px;
+    height: 199px;
+    background-color: darkkhaki;
+    border-radius: 60px;
+    position: absolute;
+    left: 57px;
+    bottom: -140px;
+}
+
+.str {
+    font-family: shizuru;
+    font-size: 70px;
+}
+
+.strPoz1 {
+    position: absolute;
+    left: 53px;
+    bottom: -20px;
+    transform: rotate(-35deg);
+}
+
+.strPoz2 {
+    position: absolute;
+    left: 53px;
+    bottom: -20px;
+    transform: rotate(-23deg);
+}
+
+.strPoz3 {
+    position: absolute;
+    left: 53px;
+    bottom: -20px;
+    transform: rotate(-8deg);
+}
+
+.strPoz4 {
+    position: absolute;
+    left: 59px;
+    bottom: -20px;
+    transform: rotate(5deg);
+}
+
+.strPoz5 {
+    position: absolute;
+    left: 53px;
+    bottom: -90px;
+    transform: rotate(-20deg);
+}
+
+.strPoz6 {
+    position: absolute;
+    left: 53px;
+    bottom: -90px;
+    transform: rotate(-7deg);
+}
+
+.strPoz7 {
+    position: absolute;
+    left: 53px;
+    bottom: -90px;
+    transform: rotate(4deg);
+}
+
+.strPoz8 {
+    position: absolute;
+    left: 53px;
+    bottom: -170px;
+    transform: rotate(-30deg);
+}
+
+.strPoz9 {
+    position: absolute;
+    left: 53px;
+    bottom: -170px;
+    transform: rotate(-19deg);
+}
+
+.strPoz10 {
+    position: absolute;
+    left: 53px;
+    bottom: -170px;
+    transform: rotate(-8deg);
+}
+
+.strPoz11 {
+    position: absolute;
+    left: 53px;
+    bottom: -170px;
+    transform: rotate(2deg);
+}
